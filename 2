@@ -2,9 +2,25 @@
 <html>
   <head>
     <title>Flexbox 없이 - 기본값</title>
+    <style>
+      /* 박스 공통 디자인 */
+      #container > div {
+        color: white;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+      }
+
+      /* 각 박스별 배경색 */
+      #container > div:nth-child(1) { background-color: #11a3c1; }
+      #container > div:nth-child(2) { background-color: #0e6c87; }
+      #container > div:nth-child(3) { background-color: #111a31; }
+    </style>
   </head>
   <body>
 
+    <!-- class 대신 id="container" 사용 -->
     <div id="container">
       <div>박스1</div>
       <div>박스2</div>
