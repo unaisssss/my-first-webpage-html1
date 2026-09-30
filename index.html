@@ -1,15 +1,58 @@
-<div style="border: 1px solid;">
-  <h1>1</h1>
-</div>
-<div style="border: 1px dashed;">
-  <h2>2</h2>
-</div>
-<div style="border: 1px dotted;">
-  <h3>3</h3>
-</div>
-<div style="border: 1px double;">
-  <h4>4</h4>
-</div>
-<div style="border: 1px groove;">
-  <h5>5</h5>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>내 첫 웹페이지</title>
+    <style>
+      /* Flexbox 적용 스타일 */
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- 1번째 실습: 인사말 -->
+    <h1>안녕하세요!</h1>
+
+    <!-- 2번째 실습: 테두리 스타일 5가지 -->
+    <div style="border: 1px solid;">
+      <h1>1</h1>
+    </div>
+    <div style="border: 1px dashed;">
+      <h2>2</h2>
+    </div>
+    <div style="border: 1px dotted;">
+      <h3>3</h3>
+    </div>
+    <div style="border: 1px double;">
+      <h4>4</h4>
+    </div>
+    <div style="border: 1px groove;">
+      <h5>5</h5>
+    </div>
+
+    <hr> <!-- 구분선 -->
+
+    <!-- 3번째 실습 (1) Before: Flexbox 없이 (세로로 쌓임) -->
+    <h3>Before - Flexbox 없이</h3>
+    <div class="container">
+      <div>박스1</div>
+      <div>박스2</div>
+      <div>박스3</div>
+    </div>
+
+    <br>
+
+    <!-- 3번째 실습 (2) After: Flexbox 적용 (가로로 나란히) -->
+    <h3>After - Flexbox 적용</h3>
+    <div class="flex-container">
+      <div>박스1</div>
+      <div>박스2</div>
+      <div>박스3</div>
+    </div>
+
+  </body>
+</html>
