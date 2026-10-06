@@ -1,0 +1,25 @@
+body {
+  background-color: #eef3f8;
+  padding: 60px;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+}
+
+h1 {
+  color: #087f9c;
+  font-size: 36px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+
+li {
+  list-style: none;
+  background-color: #19afd0;
+  padding: 15px 25px;
+}
