@@ -1,21 +1,22 @@
 body {
-  background-color: #f2f5f9;
-  padding: 40px;
+  background-color: #eef3f8;
+  padding: 60px;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+  width: 540px;
+  margin: auto;
 }
 
 h1 {
-  color: #2f6fd0;
+  color: #087f9c;
   font-size: 36px;
 }
 
 p {
-  background-color: white;
-  padding: 20px;
-}
-
-h2 {
-  color: #2f6fd0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 ul {
@@ -25,7 +26,16 @@ ul {
 }
 
 li {
-  background-color: white;
-  padding: 15px 20px;
   list-style: none;
+  background-color: #19afd0;
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #087f9c;
 }
