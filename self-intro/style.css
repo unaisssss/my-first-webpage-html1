@@ -19,6 +19,11 @@ p {
   font-size: 20px;
 }
 
+h2 {
+  color: #087f9c;
+  font-size: 22px;
+}
+
 ul {
   display: flex;
   gap: 15px;
